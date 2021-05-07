@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;   
+}
+
+a {
+    margin: 5px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;  
+    justify-content: space-between; 
+}
+
+#nav-left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px; 
+    align-items: center;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+ul > a, ul > img {
+    padding: 0 6px;
+}
+
+#apps:hover {
+    border-radius: 200px;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+section {
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    margin-top: 5vh;  
+}
+
+h1 {
+    font-family: Product Sans;
+    font-size: 5.5em;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;   
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+#input-container:hover {
+    box-shadow: 0 0 10px gainsboro;
+}
+
+#input-container > input {
+    flex-grow: 1;   
+    border: none;
+    outline: none;  
+}
+
+img:hover {
+    cursor: pointer;
+}
+#sign-in-btn{
+    color: white;
+    background-color: #1a73e8;
+
+}
+#sign-in-btn:hover{
+    background-color: #2b7de9;
+}
+#button-container {
+    display: flex;
+    flex-direction: row;    
+    padding-top: 53px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: none;
+    min-width: 54px;
+    height: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    }
+    
+
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;    
+    width: 100vw;
+    bottom: 0;
+}
+#footer-nav a{
+    color: #70757a;
+}
+#footer-left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px; 
+    align-items: center;
+}
+#footer-center{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    align-items: center;
+}
+#footer-right {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+    
+
